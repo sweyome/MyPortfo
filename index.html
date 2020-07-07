@@ -25,8 +25,8 @@
 	<link rel="stylesheet" type="text/css" href="css/plugins.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<link rel="shortcut icon" type="image/png" href="./img/hero/Group 139.png">
-	<!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
-	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="./js/axios.js" defer></script>
 	<!-- /STYLES -->
 
 </head>
@@ -757,10 +757,9 @@
 													<div class="wrap">
 														<textarea id="message" placeholder="Your Message"></textarea>
 													</div>
-													<div class="sent_tm_button">
-														<a  id="send_message" href="#"><span>Send
-																Message</span></a>
-													</div>
+													
+														<button id="sMessage">send message</button>
+													
 												</form>
 											</div>
 										</div>
