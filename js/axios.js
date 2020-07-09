@@ -1,9 +1,6 @@
 const btn = document.getElementById("sMessage");
 
 
-const name = document.getElementById('name');
-const email = document.getElementById('email');
-const message = document.getElementById('message');
 
 const nameValue = () =>{
     const name = document.getElementById('name').value;
@@ -30,4 +27,3 @@ const sendData = () => {
 }
 
 btn.addEventListener('click', sendData);
-console.log(axios)
