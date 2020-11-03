@@ -1,7 +1,6 @@
 const btn = document.getElementById("sMessage");
 
 
-
 const nameValue = () =>{
     const name = document.getElementById('name').value;
     return name
